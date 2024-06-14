@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+----------------------------------------- */
+
+body {
+  color: #000;
+  font-weight: 400;
+  font-family: 'Noto Sans JP';
+  /* overflow-x: hidden; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+/* 共通
+------------------------------------------ */
+
+
+/* Header
+------------------------------------------ */
+
+.header {
+  display: flex;
+  padding: 0 2.3% 0 3.07%;
+  height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 6px;
+}
+
+.header__button {
+  display: flex;
+  /* flex-direction: row; */
+  width: 78.8%;
+  max-width: 291px;
+  column-gap: 3.4%;
+}
+
+.header__buttonTxt {
+  letter-spacing: 0.05em;
+  font-size: 12px;
+}
+
+.header__buttonTxtSmall {
+  letter-spacing: 0.05em;
+  font-size: 10px;
+}
+
+.header__buttonArrow {
+  margin-left: 7px;
+}
+
+.header__buttonInquiry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+  font-size: 18px;
+  max-width: 107px;
+  width: 36.8%;
+  height: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 34px;
+  color: #fff;
+  background-color: #fa7da3;
+}
+
+.header__buttonReserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+  font-size: 18px;
+  width: 59.7%;
+  max-width: 174px;
+  height: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 34px;
+  color: #fff;
+  background-color: #49c43d;
+}
