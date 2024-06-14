@@ -50,11 +50,13 @@ li {
 .header__buttonTxt {
   letter-spacing: 0.05em;
   font-size: 12px;
+  line-height: 1;
 }
 
 .header__buttonTxtSmall {
   letter-spacing: 0.05em;
   font-size: 10px;
+  line-height: 1;
 }
 
 .header__buttonArrow {
@@ -91,4 +93,15 @@ li {
   border-radius: 34px;
   color: #fff;
   background-color: #49c43d;
+}
+
+
+.cover {
+  background-color: #fa7da3;
+}
+
+.cover__image {
+  display: block;
+  height: 318px;
+  margin: 0 auto;
 }
