@@ -34,23 +34,69 @@
 
   <body>
     <header class="header">
-      <img src="assets/image/header_logo_sp_01.png" alt="" class="header__logo">
+      <picture class="header__logoWrap">
+        <source media="(min-width: 768px)" srcset="./assets/image/header_logo_pc_01.png">
+        <img src="assets/image/header_logo_sp_01.png" alt="" class="header__logo">
+      </picture>
       <div class="header__button">
         <div class="header__buttonInquiry">
           <p class="header__buttonTxt">お問い合わせ</p>
-          <img src="assets/image/header_arrow_sp_01.png" alt="" class="header__buttonArrow">
+          <picture class="header__buttonArrowWrap">
+            <source media="(min-width: 768px)" srcset="./assets/image/header_arrow_pc_01.png">
+            <img src="assets/image/header_arrow_sp_01.png" alt="" class="header__buttonArrow">
+          </picture>
         </div>
         <div class="header__buttonReserve">
           <p class="header__buttonTxt">カウンセリング予約</p>
           <p class="header__buttonTxtSmall">(無料)</p>
-          <img src="assets/image/header_arrow_sp_01.png" alt="" class="header__buttonArrow">
+          <picture class="header__buttonArrowWrap">
+            <source media="(min-width: 768px)" srcset="./assets/image/header_arrow_pc_01.png">
+            <img src="assets/image/header_arrow_sp_01.png" alt="" class="header__buttonArrow">
+          </picture>
         </div>
       </div>
     </header>
 
-    <div class="cover">
-      <img src="assets/image/cover_sp_01.png" alt="" class="cover__image">
-    </div>
+    <section class="cover">
+      <picture class="cover__imageWrap">
+        <source media="(min-width: 768px)" srcset="./assets/image/cover_pc_01.png">
+        <img src="assets/image/cover_sp_01.png" alt="" class="cover__image">
+      </picture>
+      <div class="cover__main">
+        <div class="cover__title">
+          <p>全身</p>
+          <div>
+            <p>脱毛</p>
+            <p class="cover__subtitle">（顔・VIO込）</p>
+          </div>
+        </div>
+        <div class="cover__titleSp">
+          <p>全身脱毛</p>
+          <p class="cover__subtitle">（顔・VIO込）</p>
+        </div>
+      </div>
+      <div class="cover__campaign">
+        <div class="cover__campaignPrefix">
+          <p class="cover__campaignLimited">今だけ</p>
+          <p class="cover__campaignMonth">初月</p>
+        </div>
+        <div class="cover__campaignPrice">
+          <p class="cover__campaignPriceValue">0</p>
+          <p class="cover__campaignPriceUnit">円</p>
+        </div>
+      </div>
+      <div class="cover__regularPrice">
+        <span class="cover__regularPriceValue">2,480</span>
+        <span class="cover__regularPriceUnit">円／月</span>
+      </div>
+      <div class="cover__feature">
+        <p class="cover__featureItem">通い放題</p>
+        <p class="cover__featureItem">追加料金なし</p>
+        <p class="cover__featureItem">安心サポート</p>
+      </div>
+    </section>
+
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Smart Tab -->
