@@ -834,3 +834,42 @@ li {
 }
 
 .course__itemImage {}
+
+
+
+/* Course
+------------------------------------------ */
+
+.voice__slickItem {
+  width: 310px;
+}
+.voice__itemTitle {
+  height: 45.92px;
+  background-color: #fa7da3;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice__itemDetail {
+  border: 1px solid #fa7da3;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.voice__itemProfile {
+  color: #fa7da3;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.voice__itemDescription {
+  font-size: 14px;
+  color: #333;
+}
