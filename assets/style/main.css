@@ -26,6 +26,43 @@ li {
 /* 共通
 ------------------------------------------ */
 
+.section__heading {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.section__headingSmall {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4d2b1b;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 11px;
+}
+
+.section__headingLarge {
+  display: flex;
+  color: #fa7da3;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+
+.section__headingSmallImage {
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.section__headingLargeImage {
+  margin: 0 5px;
+}
+
+.section__headingLargeTxt {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 
 /* Header
 ------------------------------------------ */
@@ -565,43 +602,6 @@ li {
   padding: 39px 0 30px;
 }
 
-.feature__heading {
-  width: 350px;
-  margin: 0 auto;
-}
-
-.feature__headingSmall {
-  display: flex;
-  font-size: 18px;
-  font-weight: 500;
-  color: #4d2b1b;
-  align-items: baseline;
-  justify-content: center;
-  margin-bottom: 11px;
-}
-
-.feature__headingLarge {
-  display: flex;
-  color: #fa7da3;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 23px;
-}
-
-.feature__headingSmallImage {
-  object-fit: contain;
-  margin-right: 5px;
-}
-
-.feature__headingLargeImage {
-  margin: 0 5px;
-}
-
-.feature__headingLargeTxt {
-  font-size: 32px;
-  font-weight: 700;
-}
-
 .feature__item1 {
   width: 350px;
   margin: 0 auto;
@@ -793,34 +793,6 @@ li {
 
 .course {
   padding: 10px 0 20px;
-}
-
-.course__heading {
-  width: 350px;
-  margin: 0 auto;
-}
-
-.course__headingSmall {
-  color: #333333;
-  font-size: 18px;
-  text-align: center;
-}
-
-.course__headingLarge {
-  display: flex;
-  color: #fa7da3;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 23px;
-}
-
-.course__headingLargeTxt {
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.course__headingLargeImage {
-  margin: 0 5px;
 }
 
 .course__item1 {
