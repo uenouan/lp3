@@ -168,7 +168,7 @@
           </picture>
         </div>
       </div>
-      <div class="feature__item feature__item--1st">
+      <div class="feature__item">
         <p class="feature__itemTitle">POINT1 ｜ 通い放題</p>
         <div class="feature__itemDetail">
           <div class="feature__item1Description">
@@ -177,7 +177,10 @@
           <div class="feature__item1Image">
             <div class="feature__item1Salon">
               <div class="feature__item1SalonLogo">
-                <img src="assets/image/logo_sp_01.png" alt="">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./assets/image/logo_pc_01.png">
+                  <img src="assets/image/logo_sp_01.png" alt="">
+                </picture>
               </div>
               <p class="feature__item1SalonFeature">来店1回で全身1回</p>
             </div>
@@ -192,47 +195,49 @@
       </div>
       <div class="feature__item feature__item--2nd">
         <p class="feature__itemTitle">POINT2 ｜ プランが選べる</p>
-        <div class="feature__itemDetail">
+        <div class="feature__itemDetail feature__itemDetail--2nd">
           <div class="feature__item2Description">「全身プラン」と、施術部位を選べる「部分脱毛プラン」から自由にお選びいただけます。</div>
-          <div class="feature__item2Plan1Title">全身プラン</div>
+          <div class="feature__item2PlanTitle">全身プラン</div>
           <div class="feature__item2Plan1Image">
-            <img src="assets/image/feature_body_sp_01.png" alt="">
-            <div class="feature__item2Plan1BodyText1">
+            <picture>
+              <source media="(min-width: 768px)" srcset="./assets/image/feature_body_pc_01.png">
+              <img src="assets/image/feature_body_sp_01.png" alt="" class="feature__item2Plan1BodyImage">
+            </picture>
+            <div class="feature__item2Plan1BodyText">
               <p>おでこ</p>
               <p>頬</p>
               <p>フェイスライン</p>
               <p>鼻下</p>
               <p>あご</p>
             </div>
-            <div class="feature__item2Plan1BodyText2">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--2nd">
               <p>ワキ</p>
               <p>へそ周り</p>
             </div>
-            <div class="feature__item2Plan1BodyText3">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--3rd">
               <p>手指甲</p>
             </div>
-            <div class="feature__item2Plan1BodyText4">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--4th">
               <p>Vライン</p>
               <p>Iライン</p>
             </div>
-            <div class="feature__item2Plan1BodyText5">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--5th">
               <p>ヒザ</p>
             </div>
-            <div class="feature__item2Plan1BodyText6">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--6th">
               <p>足指甲</p>
             </div>
-            <div class="feature__item2Plan1BodyText7">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--7th">
               <p>うなじ</p>
             </div>
-            <div class="feature__item2Plan1BodyText8">
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--8th">
               <p>背中</p>
             </div>
-            <div class="feature__item2Plan1BodyText9">
-              <p>ヒップ</p>
-              <p>Oライン</p>
+            <div class="feature__item2Plan1BodyText feature__item2Plan1BodyText--9th">
+              <span>ヒップ<br>Oライン</span>
             </div>
           </div>
-          <div class="feature__item2Plan2Title">部分脱毛プラン</div>
+          <div class="feature__item2PlanTitle feature__item2PlanTitle--2nd">部分脱毛プラン</div>
           <div class="feature__item2Plan2Image">
             <div class="feature__item2Plan2ImageBox">
               <div class="feature__item2Plan2ImageParts">
@@ -267,7 +272,7 @@
       </div>
       <div class="feature__item feature__item--3rd">
         <p class="feature__itemTitle">POINT3 ｜ 安心のサポート</p>
-        <div class="feature__itemDetail">
+        <div class="feature__itemDetail feature__itemDetail--3rd">
           <div class="feature__item3Description">提携医療機関のサポートがありますので、ご安心ください。</div>
         </div>
       </div>
@@ -301,18 +306,20 @@
           </picture>
         </div>
       </div>
-      <div class="course__item1">
-        <p class="course__itemTitle">ボディコース</p>
-        <div class="course__itemDetail">
-          <p class="course__itemDescription">ボディケアのスペシャリストが、お客様のお肌を優しく施術いたします。</p>
-          <img src="assets/image/course_01.png" alt="" class="course__itemImage">
+      <div class="course__itemWrap">
+        <div class="course__item1">
+          <p class="course__itemTitle">ボディコース</p>
+          <div class="course__itemDetail">
+            <p class="course__itemDescription">ボディケアのスペシャリストが、お客様のお肌を優しく施術いたします。</p>
+            <img src="assets/image/course_01.png" alt="" class="course__itemImage">
+          </div>
         </div>
-      </div>
-      <div class="course__item2">
-        <p class="course__itemTitle">フェイシャルコース</p>
-        <div class="course__itemDetail">
-          <p class="course__itemDescription">確かな技術を持つエステティシャンが、お客様の理想のお肌に近づけます。</p>
-          <img src="assets/image/course_02.png" alt="" class="course__itemImage">
+        <div class="course__item2">
+          <p class="course__itemTitle">フェイシャルコース</p>
+          <div class="course__itemDetail">
+            <p class="course__itemDescription">確かな技術を持つエステティシャンが、お客様の理想のお肌に近づけます。</p>
+            <img src="assets/image/course_02.png" alt="" class="course__itemImage">
+          </div>
         </div>
       </div>
     </section>
