@@ -35,10 +35,12 @@
 
   <body>
     <header class="header">
-      <picture class="header__logoWrap">
-        <source media="(min-width: 768px)" srcset="./assets/image/logo_pc_01.png">
-        <img src="assets/image/logo_sp_01.png" alt="" class="header__logo">
-      </picture>
+      <h1>
+        <picture class="header__logoWrap">
+          <source media="(min-width: 768px)" srcset="./assets/image/logo_pc_01.png">
+          <img src="assets/image/logo_sp_01.png" alt="KBL KIRAMEKI BEAUTY LABO" class="header__logo">
+        </picture>
+      </h1>
       <div class="header__button">
         <div class="header__buttonInquiry">
           <p class="header__buttonTxt">お問い合わせ</p>
@@ -58,12 +60,12 @@
       </div>
     </header>
 
-    <section class="cover">
+    <div class="cover">
       <picture class="cover__imageWrap">
         <source media="(min-width: 768px)" srcset="./assets/image/cover_pc_01.png">
         <img src="assets/image/cover_sp_01.png" alt="" class="cover__image">
       </picture>
-      <h1 class="cover__main">
+      <div class="cover__main">
         <div class="cover__title">
           <p>全身</p>
           <div>
@@ -75,7 +77,7 @@
           <p>全身脱毛</p>
           <p class="cover__subtitle">（顔・VIO込）</p>
         </div>
-      </h1>
+      </div>
       <div class="cover__campaign">
         <div class="cover__campaignPrefix">
           <p class="cover__campaignLimited">今だけ</p>
@@ -95,13 +97,19 @@
         <p class="cover__featureItem">追加料金なし</p>
         <p class="cover__featureItem">安心サポート</p>
       </div>
-    </section>
+    </div>
 
     <div class="giveaway">
       <div class="giveaway__heading">
-        <img src="assets/image/giveaway_left_sp_01.png" alt="" class="giveaway__headingSlash">
+        <picture class="header__buttonArrowWrap">
+          <source media="(min-width: 768px)" srcset="./assets/image/giveaway_left_pc_01.png">
+          <img src="assets/image/giveaway_left_sp_01.png" alt="" class="giveaway__headingSlash">
+        </picture>
         <p class="giveaway__headingTxt">今だけ!</p>
-        <img src="assets/image/giveaway_right_sp_01.png" alt="" class="giveaway__headingSlash">
+        <picture class="header__buttonArrowWrap">
+          <source media="(min-width: 768px)" srcset="./assets/image/giveaway_right_pc_01.png">
+          <img src="assets/image/giveaway_right_sp_01.png" alt="" class="giveaway__headingSlash">
+        </picture>
       </div>
       <div class="giveaway__main">
         <p class="giveaway__course">フェイシャルコース</p>
@@ -120,7 +128,10 @@
         <p class="freetrial__heading">無料体験実施中！</p>
         <div class="freetrial__button">
           <p class="freetrial__buttonTxt">カウンセリング予約<br>はこちら（無料）</p>
-          <img src="assets/image/freetrial_arrow_sp_01.png" alt="" class="freetrial__buttonArrow">
+          <picture class="header__buttonArrowWrap">
+            <source media="(min-width: 768px)" srcset="./assets/image/freetrial_arrow_pc_01.png">
+            <img src="assets/image/freetrial_arrow_sp_01.png" alt="" class="freetrial__buttonArrow">
+          </picture>
         </div>
         <p class="freetrial__menuTitle">無料体験内容</p>
         <div class="freetrial__menuDescription">
@@ -138,17 +149,26 @@
 
     <section class="feature">
       <div class="section__heading">
-        <div class="section__headingSmall">
-          <img src="assets/image/feature_logo_sp_01.png" alt="" class="section__headingSmallImage">
+        <div class="feature__headingPrefix">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/feature_logo_pc_01.png">
+            <img src="assets/image/feature_logo_sp_01.png" alt="" class="feature__headingLogo">
+          </picture>
           <p>が選ばれる</p>
         </div>
-        <div class="section__headingLarge">
-          <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingLargeImage">
-          f <h2 class="section__headingLargeTxt">3つのポイント</h2>
-          <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingLargeImage">
+        <div class="section__headingMain">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/shine_left_pc_01.png">
+            <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingShine">
+          </picture>
+          <h2 class="section__headingTxt">3つのポイント</h2>
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/shine_right_pc_01.png">
+            <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingShine">
+          </picture>
         </div>
       </div>
-      <div class="feature__item1">
+      <div class="feature__item feature__item--1st">
         <p class="feature__itemTitle">POINT1 ｜ 通い放題</p>
         <div class="feature__itemDetail">
           <div class="feature__item1Description">
@@ -170,7 +190,7 @@
           </div>
         </div>
       </div>
-      <div class="feature__item2">
+      <div class="feature__item feature__item--2nd">
         <p class="feature__itemTitle">POINT2 ｜ プランが選べる</p>
         <div class="feature__itemDetail">
           <div class="feature__item2Description">「全身プラン」と、施術部位を選べる「部分脱毛プラン」から自由にお選びいただけます。</div>
@@ -245,7 +265,7 @@
           </div>
         </div>
       </div>
-      <div class="feature__item3">
+      <div class="feature__item feature__item--3rd">
         <p class="feature__itemTitle">POINT3 ｜ 安心のサポート</p>
         <div class="feature__itemDetail">
           <div class="feature__item3Description">提携医療機関のサポートがありますので、ご安心ください。</div>
@@ -258,18 +278,27 @@
         <p class="freetrial__heading">無料体験実施中！</p>
         <div class="freetrial__button">
           <p class="freetrial__buttonTxt">カウンセリング予約<br>はこちら（無料）</p>
-          <img src="assets/image/freetrial_arrow_sp_01.png" alt="" class="freetrial__buttonArrow">
+          <picture class="header__buttonArrowWrap">
+            <source media="(min-width: 768px)" srcset="./assets/image/freetrial_arrow_pc_01.png">
+            <img src="assets/image/freetrial_arrow_sp_01.png" alt="" class="freetrial__buttonArrow">
+          </picture>
         </div>
       </div>
     </div>
 
     <section class="course">
       <div class="section__heading">
-        <p class="section__headingSmall">ほかにも選べる！</p>
-        <div class="section__headingLarge">
-          <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingLargeImage">
-          <h2 class="section__headingLargeTxt">2つのコース</h2>
-          <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingLargeImage">
+        <p class="course__headingPrefix">ほかにも選べる！</p>
+        <div class="section__headingMain">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/shine_left_pc_01.png">
+            <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingShine">
+          </picture>
+          <h2 class="section__headingTxt">2つのコース</h2>
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/shine_right_pc_01.png">
+            <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingShine">
+          </picture>
         </div>
       </div>
       <div class="course__item1">
@@ -290,59 +319,78 @@
 
     <section class="voice">
       <div class="section__heading">
-        <div class="section__headingLarge">
-          <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingLargeImage">
-          <h2 class="section__headingLargeTxt">お客様の声</h2>
-          <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingLargeImage">
+        <div class="section__headingMain">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/shine_left_pc_01.png">
+            <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingShine">
+          </picture>
+          <h2 class="section__headingTxt">お客様の声</h2>
+          <picture>
+            <source media="(min-width: 768px)" srcset="./assets/image/shine_right_pc_01.png">
+            <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingShine">
+          </picture>
         </div>
       </div>
       <div class="voice__cover">
         <div class="voice__slick">
-          <!-- 1枚目 -->
+
           <div class="voice__slickItem">
             <div class="voice__itemTitle">フェイシャルコース</div>
             <div class="voice__itemDetail">
-              <img src="assets/image/voice_01.png" alt="">
+              <img src="assets/image/voice_01.png" alt="" class="voice__itemImage">
               <div class="voice__itemText">
                 <p class="voice__itemProfile">30代 N.Tさま/会社員</p>
-                <p class="voice__itemDescription">納得いくまで何度も、追加料金なく安心して通うことができて大変満足しています。</p>
+                <p class="voice__itemDescription">ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。</p>
               </div>
             </div>
           </div>
-          <!-- 2枚目 -->
+
           <div class="voice__slickItem">
             <div class="voice__itemTitle">脱毛コース</div>
             <div class="voice__itemDetail">
-              <img src="assets/image/voice_02.png" alt="">
+              <img src="assets/image/voice_02.png" alt="" class="voice__itemImage">
               <div class="voice__itemText">
                 <p class="voice__itemProfile">30代 N.Tさま/会社員</p>
                 <p class="voice__itemDescription">納得いくまで何度も、追加料金なく安心して通うことができて大変満足しています。</p>
               </div>
             </div>
           </div>
-          <!-- 3枚目 -->
+
           <div class="voice__slickItem">
             <div class="voice__itemTitle">ボディコース</div>
             <div class="voice__itemDetail">
-              <img src="assets/image/voice_03.png" alt="">
+              <img src="assets/image/voice_03.png" alt="" class="voice__itemImage">
               <div class="voice__itemText">
                 <p class="voice__itemProfile">30代 N.Tさま/会社員</p>
-                <p class="voice__itemDescription">納得いくまで何度も、追加料金なく安心して通うことができて大変満足しています。</p>
+                <p class="voice__itemDescription">ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。</p>
               </div>
             </div>
           </div>
         </div>
+        <div class="voice__slickDots">
+          <div class="voice__slickDotsDummy"></div>
+          <div class="voice__slickDotsDummy voice__slickDotsDummy--active"></div>
+          <div class="voice__slickDotsDummy"></div>
+        </div>
       </div>
     </section>
+
 
     <div class="freetrialbox3">
       <div class="freetrial">
         <p class="freetrial__heading">無料体験実施中！</p>
         <div class="freetrial__button">
           <p class="freetrial__buttonTxt">カウンセリング予約<br>はこちら（無料）</p>
-          <img src="assets/image/freetrial_arrow_sp_01.png" alt="" class="freetrial__buttonArrow">
+          <picture class="header__buttonArrowWrap">
+            <source media="(min-width: 768px)" srcset="./assets/image/freetrial_arrow_pc_01.png">
+            <img src="assets/image/freetrial_arrow_sp_01.png" alt="" class="freetrial__buttonArrow">
+          </picture>
         </div>
       </div>
+    </div>
+
+    <div class="footer">
+      <img src="assets/image/logo_inversion_sp_01.png" alt="">
     </div>
 
     <!-- jQuery -->
