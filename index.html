@@ -149,10 +149,10 @@
 
     <section class="feature">
       <div class="section__heading">
-        <div class="feature__headingPrefix">
+        <div class="section__headingPrefix section__headingPrefix--feature">
           <picture>
             <source media="(min-width: 768px)" srcset="./assets/image/feature_logo_pc_01.png">
-            <img src="assets/image/feature_logo_sp_01.png" alt="" class="feature__headingLogo">
+            <img src="assets/image/feature_logo_sp_01.png" alt="" class="section__headingLogo">
           </picture>
           <p>が選ばれる</p>
         </div>
@@ -293,13 +293,13 @@
 
     <section class="course">
       <div class="section__heading">
-        <p class="course__headingPrefix">ほかにも選べる！</p>
-        <div class="section__headingMain">
+        <p class="section__headingPrefix section__headingPrefix--course">ほかにも選べる！</p>
+        <div class="section__headingMain section__headingMain--course">
           <picture>
             <source media="(min-width: 768px)" srcset="./assets/image/shine_left_pc_01.png">
             <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingShine">
           </picture>
-          <h2 class="section__headingTxt">2つのコース</h2>
+          <h2 class="section__headingTxt section__headingTxt--course">2つのコース</h2>
           <picture>
             <source media="(min-width: 768px)" srcset="./assets/image/shine_right_pc_01.png">
             <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingShine">
@@ -326,12 +326,12 @@
 
     <section class="voice">
       <div class="section__heading">
-        <div class="section__headingMain">
+        <div class="section__headingMain section__headingMain--voice">
           <picture>
             <source media="(min-width: 768px)" srcset="./assets/image/shine_left_pc_01.png">
             <img src="assets/image/shine_left_sp_01.png" alt="" class="section__headingShine">
           </picture>
-          <h2 class="section__headingTxt">お客様の声</h2>
+          <h2 class="section__headingTxt section__headingTxt--voice">お客様の声</h2>
           <picture>
             <source media="(min-width: 768px)" srcset="./assets/image/shine_right_pc_01.png">
             <img src="assets/image/shine_right_sp_01.png" alt="" class="section__headingShine">
@@ -397,7 +397,10 @@
     </div>
 
     <div class="footer">
-      <img src="assets/image/logo_inversion_sp_01.png" alt="">
+      <picture class="header__buttonArrowWrap">
+        <source media="(min-width: 768px)" srcset="./assets/image/logo_inversion_pc_01.png">
+        <img src="assets/image/logo_inversion_sp_01.png" alt="">
+      </picture>
     </div>
 
     <!-- jQuery -->

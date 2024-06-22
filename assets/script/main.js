@@ -8,7 +8,7 @@ $('.voice__slick').slick({
   centerMode: false,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 975,
       settings: {
         arrows: false,
         dots: true,
@@ -43,7 +43,7 @@ $('.voice__slick').slick({
         dots: true,
         slidesToShow: 1,
         centerMode: true,
-        centerPadding: "10%",
+        centerPadding: "8.5%",
       },
     },
     {
