@@ -2,7 +2,6 @@
 
 /* ページ全体のスタイル
 ----------------------------------------- */
-/* * {outline:1px solid red;} */
 
 body {
   color: #000;
@@ -26,10 +25,6 @@ li {
 
 /* 共通
 ------------------------------------------ */
-
-.freetrial {
-  /* height: 187px; */
-}
 
 .freetrial__heading {
   font-size: 21px;
@@ -198,10 +193,6 @@ li {
   .section__headingMain--voice {
     margin-bottom: 35px;
   }}
-
-.section__headingShine {
-  /* margin: 0 5px; */
-}
 
 .section__headingTxt {
   font-size: 32px;
@@ -405,7 +396,6 @@ li {
   top: 20px;
   left: 4.6%;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   width: 43.1%;
   min-width: 168px;
@@ -454,7 +444,6 @@ li {
       -10px 10px 10px rgba(250, 125, 163, .4), 10px -10px 10px rgba(250, 125, 163, .4),
       10px 0 10px rgba(250, 125, 163, .4), -10px 0 10px rgba(250, 125, 163, .4),
       0 10px 10px rgba(250, 125, 163, .4), 0 -10px 10px rgba(250, 125, 163, .4);
-    /* margin: 0 32px 18px 0; */
     justify-content: left;
     display: flex;
     flex-wrap: wrap;
@@ -719,8 +708,6 @@ li {
 .giveaway__offer {
   background-color: #fff;
   color: #fa7da3;
-  /* text-align: center; */
-  /* vertical-align: middle; */
   height: 60px;
   display: flex;
   align-items: center;
@@ -780,10 +767,6 @@ li {
     margin-top: 15px;
   }
 }
-
-
-/* Free Trial
------------------------------------------- */
 
 
 /* Feature
@@ -993,7 +976,6 @@ li {
   font-size: 12px;
   display: flex;
   justify-content: center;
-  /* width: 350px; */
 }
 
 @media (min-width: 768px) {
@@ -1247,6 +1229,7 @@ li {
   }
 }
 
+
 /* Voice
 ------------------------------------------ */
 
@@ -1269,14 +1252,10 @@ li {
   .voice__cover {
     max-width: 975px;
     width: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
   }
 }
 
 .voice__slickItem {
-  /* max-width: 310px; */
   margin: 0 1.9vw;
 }
 
@@ -1307,7 +1286,6 @@ li {
   column-gap: 10px;
   height: 100%;
   margin-top: -45.92px;
-  /* padding-top: 60.92px; */
   z-index: -1;
 }
 
