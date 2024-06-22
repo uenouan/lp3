@@ -7,7 +7,7 @@ body {
   color: #000;
   font-weight: 400;
   font-family: 'Noto Sans JP';
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -256,15 +256,24 @@ li {
 
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.header__inner {
+  display: flex;
   padding: 0 2.3% 0 3.07%;
   height: 60px;
   align-items: center;
   justify-content: space-between;
   column-gap: 6px;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
-  .header {
+  .header__inner {
     max-width: 1030px;
     width: 95%;
     height: 92px;
